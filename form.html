@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuri Form</title>
+</head>
+<body>
+    <form action="">
+        <div> <!-- div container takes full width of for the tag unless otherwise styled-->
+            <label for="fName">First Name:</label>
+            <input type="text" name="fName" id="fName">
+        </div>   
+        <div>
+            <label for="lName">Last Name: </label>
+            <input type="text" name="lName" id="lName">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="pNum">Phone Number:</label>
+            <input type="tel" name="pNum" id="pNum"> <!-- type: tel takes in number, can also use number instead of tel-->
+        </div>
+        <div>
+            <label for="car"> Choose your car</label>
+            <select name="car" id="car">
+                <option value="Volvo">Volvo</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Posch">Posch</option>
+                <option value="Farrari">Farrari</option>
+                <option value="Royce">Rolls Royce</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="car" id="car">
+            <label for="iHc">I have a Car</label> <br>
+            <input type="checkbox" name="bike" id="bike">
+            <label for="iHc">I have a Bike</label> <br>
+            <input type="checkbox" name="" id="boat">
+            <label for="iHc">I have a Boat</label>
+        </div>
+        <div>
+            <input type="text" placeholder="Write about your self">
+        </div>
+        <div>
+            <p> Select your language </p>
+            <input type="radio" name="lang" id="">
+            <label for="lang"> HTML </label><br> <!-- add same name to prevent selecting multiple options for radio-->
+            <input type="radio" name="lang" id="">
+            <label for="lang"> CSS </label><br>
+            <input type="radio" name="lang" id="">
+            <label for="lang"> Javascript </label> <br>
+            <input type="radio" name="lang" id="">
+            <label for="lang"> Python </label> <br>
+            <input type="radio" name="lang" id="">
+            <label for="lang"> Ruby </label>
+        </div>
+        <div>
+            <label for="file">Upload a Document</label>
+            <input type="file" name="file" id="">
+        </div>
+        <div>
+            <textarea name="" id="">something unique </textarea>
+        </div>
+        <div>
+            <input type="reset" value="Clear"> <!-- to reset the whole form-->
+        </div>
+        <input type="submit" value="submit">
+        <input type="search" name="" id="">
+        <input type="checkbox" name="" id="">
+    </form>
+</body>
+</html>
