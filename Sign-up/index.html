@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Registration Form</h1>
+        <form action="#">
+            <input type="text" placeholder="First Name"> 
+            <input type="text" placeholder="Last Name"> 
+            <input type="tel" placeholder="Phone Number">
+            <select name="gender" id="gender"> 
+                <option value="gender">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="fmale">Female</option>
+            </select>
+            <input type="date" placeholder="Date of Birth">
+            <div class="color">
+            <label for="color">Pick Your Favorite Color</label>
+            <input type="color">
+            </div>
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password">             
+        </form>
+        <div class="terms">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox"> I agree to these <a href="#">Terms & Conditions</a></label>
+        </div>
+        <button>Sign Up</button>
+        <div class="member">
+            <p>Aleady a member? <a href="./login.html" target="_blank" >Login Here</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
